@@ -1,11 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <Button variant="secondary">Secondary</Button>{' '}
+      <header id="header">
+        <Header></Header>
+      </header>
     </div>
   );
 }
